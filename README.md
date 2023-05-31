@@ -1,5 +1,5 @@
 # Instalar-SonarQube-en-Docker
- Instalar SonarQube en Docker para windows y con bbdd postgres
+ Instalar SonarQube en Docker para windows y con bbdd Postgre
 
 En primer lugar tras tener docker funcionando en windows accedemos al PowerShell y ejecutamos el comando "wsl -d docker-desktop" para iniciar la aplicación Docker Desktop dentro de Windows Subsystem for Linux (WSL).
 
