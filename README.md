@@ -5,7 +5,7 @@ En primer lugar tras tener docker funcionando en windows accedemos al PowerShell
 
 Definimos la cantidad máxima de áreas de memoria virtual permitidas el proceso con el comando "sysctl -w vm.max_map_count=262144".
 
-Listo ahora nos toca navegar desde el cmd hasta el directorio donde tenemos descargado el docker-compose.yml y ejecutar el comando "docker-compose up -d", esto ahora que docker comience a descargar las imagenes desde el hub y realizar la configuracion, tras finalizar podemos comprobar si los servicios estan activamos con el comando "docker ps".
+Listo ahora nos toca navegar desde el cmd hasta el directorio donde tenemos descargado el docker-compose.yml y ejecutar el comando "docker-compose up -d", esto hará que docker lea nuestro compose comience a descargar y configurar las imagenes de SonarQube y Postgre  desde el propio hub de Docker, tras finalizar podemos comprobar si los servicios estan en ejecucion con el comando "docker ps".
 
 Sonar se ha configurado en el puerto 9000 tanto origen como destino, por la ruta en nuestro navegador será http://localhost:9000.
 Tanto el usuario como la contreseña por defecto de SonarQube es admi, tras el primer incicio podremos cambiar dicha contraseña.
