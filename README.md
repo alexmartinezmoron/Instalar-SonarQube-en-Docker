@@ -9,5 +9,5 @@ Listo ahora nos toca navegar desde el cmd hasta el directorio donde tenemos desc
 
 Sonar se ha configurado en el puerto 9000 tanto origen como destino, por la ruta en nuestro navegador será http://localhost:9000.
 
-Tanto el usuario como la contreseña por defecto de SonarQube es admi, tras el primer incicio podremos cambiar dicha contraseña.
+Tanto el usuario como la contreseña por defecto de SonarQube es admin, tras el primer incicio podremos cambiar dicha contraseña.
 Postgre queda configurado en el puerto 5432/tcp.
